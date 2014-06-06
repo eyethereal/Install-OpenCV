@@ -34,8 +34,7 @@ cd $dldir
 wget -O $downloadfile http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/$version/$downloadfile/download
 
 echo "--- Installing OpenCV" $version
-echo $downloadfile | grep ".zip"
-if [ $? -eq 0 ]; then
+if echo $downloadfile | grep ".zip"; then
     unzip $downloadfile
 else
     tar -xvf $downloadfile
