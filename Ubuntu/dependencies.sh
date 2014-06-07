@@ -8,7 +8,7 @@ function install_dependency {
     sudo apt-get -y install $1
 }
 
-install_dependency libopencv-dev
+#install_dependency libopencv-dev
 install_dependency build-essential
 install_dependency checkinstall
 install_dependency cmake
