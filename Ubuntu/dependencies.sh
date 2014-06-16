@@ -17,7 +17,7 @@ install_dependency yasm
 install_dependency libtiff4-dev
 install_dependency libjpeg-dev
 install_dependency libjasper-dev
-#install_dependency libavcodec-dev
+install_dependency libavcodec-dev
 install_dependency libavformat-dev
 install_dependency libswscale-dev
 install_dependency libdc1394-22-dev
