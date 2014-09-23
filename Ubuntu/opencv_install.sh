@@ -37,7 +37,7 @@ echo "--- Installing OpenCV" $version
 if echo $downloadfile | grep ".zip"; then
     unzip $downloadfile
 else
-    tar -xvf $downloadfile
+    tar -xf $downloadfile
 fi
 cd opencv-$version
 mkdir build
